@@ -1,0 +1,21 @@
+[user]
+name = Martha Rotter
+email = martharotter@gmail.com
+
+[push]
+default = simple
+
+[core]
+whitespace = cr-at-eol
+autocrlf = false
+    
+[alias]
+	s = status
+	ss = status -s
+	lg = log --oneline --decorate --all --graph
+
+[branch]
+	autosetuprebase = always
+
+[credential]
+	helper = cache --timeout=3600
